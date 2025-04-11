@@ -9,7 +9,7 @@ Testing:2025-04-11 10:00:17
 #!/bin/bash
 
 # 커밋 메세지 입력 받기
-read -p "커밋 메세지를 입력하세요: " user_message
+#read -p "커밋 메세지를 입력하세요: " user_message
 
 # KST 시간 구하기(UTC+9)
 current_time=$(TZ=Asia/Seoul date "+%Y-%m-%d %H:%M:%S")
